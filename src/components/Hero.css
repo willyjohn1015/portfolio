@@ -1,0 +1,16 @@
+.hero-section {
+  background-image: url('../images/hero.png'); /* path to your image */
+  background-size: cover;          /* makes the image cover the whole section */
+  background-position: center;     /* center the image */
+  background-repeat: no-repeat;    /* don't repeat the image */
+  color: rgb(0, 0, 0);                    /* make text readable */
+  position: relative;
+  height: 100vh;                  /* full viewport height */
+  display: flex;
+  justify-content: flex-end;      /* pushes content to bottom */
+  align-items: center;            /* centers horizontally */
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+  padding-bottom: 200px;           /* space from bottom */
+  margin-top: -100px;
+}

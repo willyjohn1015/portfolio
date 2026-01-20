@@ -1,0 +1,215 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #eeebeb;
+  color: #111827;
+  line-height: 1.6;
+  font-size: 16px;
+}
+#aboutMe_text{
+  text-align: justify;
+}
+.hero-section {
+  background-image: url('images/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-text{
+  text-align: justify;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.nav-link{
+    text-shadow:
+        -0.5px -0.5px 0 #ffffff,  
+         0.5px -0.5px 0 #ffffff,
+        -0.5px  0.5px 0 #ffffff,
+         0.5px  0.5px 0 #ffffff;
+}
+.nav-link.active{
+  text-decoration: underline;
+}
+a:hover {
+  color: #3b82f6; /* Tailwind blue-500 */
+}
+
+/* Header */
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+/* Navigation links */
+nav a {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+/* Section title */
+.section-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+/* Card */
+.mono-card {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Divider */
+.mono-divider {
+  border-top: 1px solid #ccc;
+}
+
+/* List */
+.mono-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.mono-list li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.mono-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #888;
+}
+
+
+/* Hero Section */
+section.hero {
+  padding: 6rem 2rem;
+  text-align: center;
+  background-color: #f3f4f6; /* light gray */
+}
+h1{
+  text-transform: uppercase;
+}
+section.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+section.hero p {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  color: #6b7280; /* gray-500 */
+}
+
+/* Button */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb; /* darker blue */
+}
+
+/* Projects Section */
+section.projects {
+  padding: 4rem 2rem;
+}
+
+section.projects h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Project Card */
+.project-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.project-card small {
+  color: #9ca3af;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  section.hero h1 {
+    font-size: 2.25rem;
+  }
+
+  section.projects h2 {
+    font-size: 2rem;
+  }
+}

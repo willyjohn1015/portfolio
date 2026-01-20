@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e2cdee5b.css",
+    "main.js": "/portfolio/static/js/main.2cf64f91.js",
+    "static/media/Rate Sheet.mp4": "/portfolio/static/media/Rate Sheet.3ff602a4eb8a6d8d8a64.mp4",
+    "static/media/LPS.mp4": "/portfolio/static/media/LPS.3c9cb3984dc4818d5131.mp4",
+    "static/media/Budget Monitoring.mp4": "/portfolio/static/media/Budget Monitoring.51187e349b4d663c14c7.mp4",
+    "static/media/Queuing.mp4": "/portfolio/static/media/Queuing.b6ce5e1594492b3c251e.mp4",
+    "static/media/Inventory.mp4": "/portfolio/static/media/Inventory.e5651b537364d9475e36.mp4",
+    "static/media/Warehouse.mp4": "/portfolio/static/media/Warehouse.af11f041c68d84238179.mp4",
+    "static/media/hero.png": "/portfolio/static/media/hero.4705a63c74eba44175f9.png",
+    "static/media/3.png": "/portfolio/static/media/3.21d70a33f337679e7564.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.aac53e0fef8780e4e5f8.pdf",
+    "static/media/logo.png": "/portfolio/static/media/logo.b45412107dcf1731076e.png",
+    "static/media/1.png": "/portfolio/static/media/1.e181993d9b099b8a128c.png",
+    "static/media/6.png": "/portfolio/static/media/6.d009baa1164715856240.png",
+    "static/media/4.png": "/portfolio/static/media/4.a82756bb91772d3daf7d.png",
+    "static/media/2.png": "/portfolio/static/media/2.ec35a17771cc4905d58a.png",
+    "static/media/5.png": "/portfolio/static/media/5.73afd2d1fe636efc07af.png",
+    "index.html": "/portfolio/index.html",
+    "main.e2cdee5b.css.map": "/portfolio/static/css/main.e2cdee5b.css.map",
+    "main.2cf64f91.js.map": "/portfolio/static/js/main.2cf64f91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2cdee5b.css",
+    "static/js/main.2cf64f91.js"
+  ]
+}
